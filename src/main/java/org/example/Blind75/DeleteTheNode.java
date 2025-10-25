@@ -41,7 +41,7 @@ public class DeleteTheNode {
         printList(deleteTheNode.head);
     }
 
-    private static void printList(Node head) {
+    static void printList(Node head) {
 
         Node current = head;
         while (current != null) {
